@@ -1,0 +1,65 @@
+/* Bootstrap Material Overrides */
+
+/* Background color */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Links */
+a,
+a:hover,
+a:focus {
+    color: #d82e49;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+}
+.navbar.navbar,
+.navbar-default.navbar {
+    background-color: #ffffff;
+    color: #d82e49; /*rgba(255, 255, 255, 0.84);*/
+}
+.navbar.navbar .dropdown-menu li > a:hover,
+.navbar-default.navbar .dropdown-menu li > a:hover,
+.navbar.navbar .dropdown-menu li > a:focus,
+.navbar-default.navbar .dropdown-menu li > a:focus {
+    color: #d82e49;
+}
+.navbar.navbar .dropdown-menu .active > a,
+.navbar-default.navbar .dropdown-menu .active > a {
+    color: #d82e49;/**/
+    background-color: rgba(255, 255, 255, 0.84);
+}
+.navbar.navbar .navbar-form .form-control-wrapper input.form-control::placeholder,
+.navbar-default.navbar .navbar-form .form-control-wrapper input.form-control::placeholder,
+.navbar.navbar .navbar-form input.form-control::placeholder,
+.navbar-default.navbar .navbar-form input.form-control::placeholder {
+    color: #333333; /*rgba(255, 255, 255, 0.84);*/
+}
+.navbar.navbar .dropdown-menu li > a:hover,
+.navbar-default.navbar .dropdown-menu li > a:hover,
+.navbar.navbar .dropdown-menu li > a:focus,
+.navbar-default.navbar .dropdown-menu li > a:focus {
+    color: #d82e49;
+}
+.navbar.navbar .dropdown-menu .active > a:hover,
+.navbar-default.navbar .dropdown-menu .active > a:hover,
+.navbar.navbar .dropdown-menu .active > a:focus,
+.navbar-default.navbar .dropdown-menu .active > a:focus {
+    color: #d82e49;
+}
+
+/* Buttons */
+.btn:not(.btn-link):not(.btn-flat),
+.btn-default:not(.btn-link):not(.btn-flat) {
+    background-color: #ffffff;
+    color: rgba(255, 255, 255, 0.84);
+    color: #d82e49; /* rgba(0, 0, 0, 0.84); */
+}
+
+

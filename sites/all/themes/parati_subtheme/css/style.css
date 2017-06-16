@@ -1,0 +1,31 @@
+/**
+ * Place your custom styles here.
+ */
+
+/* Font overrides */
+html {
+    font-family: "Open Sans";
+    font-size: 13px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    background-color: #fcfcfc;
+}
+
+.dropdown-menu {
+    font-size: 16px;
+}
+
+/* Admin Backend */
+#admin-menu {z-index: 9999;}
+
+.navbar.container,
+.navbar.container-fluid {
+    margin-top: 0px;
+}

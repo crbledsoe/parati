@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="59bf6587-40cc-45b0-be85-d0665a52cce2" name="Drupal VM" url="http://192.168.1.129">
+        <fileTransfer host="192.168.1.129" port="22" rootFolder="/var/www/drupal7" accessType="SFTP" password="dfe7dfcbdfc4dfcedf9adfc6dfc3dfc4df92" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

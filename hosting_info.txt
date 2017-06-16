@@ -1,0 +1,4 @@
+Drupal Hosting with continuous integration
+==========================================
+https://pantheon.io/pricing - $25 per month
+
